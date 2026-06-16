@@ -2,7 +2,7 @@
   "name": "balcao-visitbraga",
   "version": "2.0.0",
   "private": true,
-  "description": "Balcão Visit Braga — fonte de verdade interna do posto de turismo do Município de Braga: o que há na cidade e a ficha sempre atual (horários, aberto agora, contactos, localização) de cada operador e espaço, mantida pelas próprias entidades.",
+  "description": "Balcão Visit Braga- fonte de verdade interna do posto de turismo do Município de Braga: o que há na cidade e a ficha sempre atual (horários, aberto agora, contactos, localização) de cada operador e espaço, mantida pelas próprias entidades.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,5 +1,5 @@
 'use client';
-// app/admin/painel/page.tsx — Indicadores da Divisão de Turismo.
+// app/admin/painel/page.tsx- Indicadores da Divisão de Turismo.
 import Link from 'next/link';
 import { useData } from '@/lib/data';
 import { Badge, Card, EmptyState, StatTile } from '@/components/ui/primitives';

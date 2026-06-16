@@ -1,4 +1,4 @@
-// lib/utils.ts — formatação (pt-PT), horários, janelas de tempo, etiquetas, CSV.
+// lib/utils.ts- formatação (pt-PT), horários, janelas de tempo, etiquetas, CSV.
 
 import type {
   Communication,

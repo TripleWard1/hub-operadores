@@ -1,5 +1,5 @@
 'use client';
-// components/HoursEditor.tsx — editor de horário semanal (intervalos por dia).
+// components/HoursEditor.tsx- editor de horário semanal (intervalos por dia).
 import { Button } from './ui/primitives';
 import { IconPlus, IconTrash } from './ui/Icons';
 import { WEEKDAY_KEYS, WEEKDAY_LABELS } from '@/lib/utils';

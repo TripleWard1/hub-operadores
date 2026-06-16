@@ -1,5 +1,5 @@
 'use client';
-// lib/data.tsx — camada de dados central (demo / Firebase). Toda a UI usa useData().
+// lib/data.tsx- camada de dados central (demo / Firebase). Toda a UI usa useData().
 
 import {
   createContext,

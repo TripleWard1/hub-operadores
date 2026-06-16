@@ -1,5 +1,5 @@
 'use client';
-// app/admin/layout.tsx — backoffice da Divisão de Turismo.
+// app/admin/layout.tsx- backoffice da Divisão de Turismo.
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/lib/auth';

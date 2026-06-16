@@ -1,5 +1,5 @@
 'use client';
-// lib/useEntity.ts — entidade associada ao utilizador autenticado.
+// lib/useEntity.ts- entidade associada ao utilizador autenticado.
 
 import { useAuth } from './auth';
 import { useData } from './data';

@@ -1,5 +1,5 @@
 'use client';
-// app/(entidade)/ficha/page.tsx — a entidade mantém a sua ficha sempre atual.
+// app/(entidade)/ficha/page.tsx- a entidade mantém a sua ficha sempre atual.
 import { useState } from 'react';
 import { useData } from '@/lib/data';
 import { useCurrentEntity } from '@/lib/useEntity';
@@ -61,7 +61,7 @@ export default function FichaEntidade() {
         </div>
         <div className="text-right">
           <Badge tone={stale ? 'pendente' : 'ativo'}>Atualizada {timeAgo(entity.updatedAt)}</Badge>
-          {stale && <div className="faint text-xs mt-1">Já passou algum tempo — convém rever.</div>}
+          {stale && <div className="faint text-xs mt-1">Já passou algum tempo- convém rever.</div>}
         </div>
       </div>
 

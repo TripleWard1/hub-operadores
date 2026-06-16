@@ -1,4 +1,4 @@
-// lib/seed.ts — dados de demonstração: entidades de Braga (fictícias) + o que há.
+// lib/seed.ts- dados de demonstração: entidades de Braga (fictícias) + o que há.
 
 import type { Communication, Entity, OpeningHours, User } from '@/types';
 
@@ -18,7 +18,7 @@ const H = (...days: (string | null)[]): OpeningHours => {
 
 export const seedUsers: User[] = [
   { id: 'u-entidade', email: 'operador@visitbraga.pt', name: 'Hotel Colina do Bom Jesus', role: 'entidade', entityId: 'ent-hotel' },
-  { id: 'u-admin', email: 'admin@visitbraga.pt', name: 'Divisão de Turismo — CM Braga', role: 'admin' },
+  { id: 'u-admin', email: 'admin@visitbraga.pt', name: 'Divisão de Turismo- CM Braga', role: 'admin' },
   { id: 'u-balcao', email: 'posto@visitbraga.pt', name: 'Posto de Turismo', role: 'balcao' },
 ];
 
@@ -42,7 +42,7 @@ export const seedEntities: Entity[] = [
     social: { instagram: '@saboresdominho' },
     address: 'Rua do Souto, Braga', lat: 41.5503, lng: -8.4255,
     shortDesc: 'Cozinha tradicional minhota no centro histórico.',
-    description: 'Restaurante familiar com pratos regionais — bacalhau à minhota, rojões, arroz de pato. Esplanada no verão.',
+    description: 'Restaurante familiar com pratos regionais- bacalhau à minhota, rojões, arroz de pato. Esplanada no verão.',
     goodToKnow: 'Recomenda-se reserva ao fim de semana. Menu vegetariano disponível.',
     tags: ['familia', 'reserva', 'grupos'],
     hours: H('12:00-15:00', '12:00-15:00|19:00-23:00', '12:00-15:00|19:00-23:00', '12:00-15:00|19:00-23:00', '12:00-15:00|19:00-23:30', '12:00-15:30|19:00-23:30', '12:00-15:30'),
@@ -68,16 +68,16 @@ export const seedEntities: Entity[] = [
     social: { instagram: '@espacocaranda', facebook: 'espacocaranda' },
     address: 'Mercado Cultural do Carandá, Braga', lat: 41.5536, lng: -8.4179,
     shortDesc: 'Concertos, feiras e exposições no antigo mercado.',
-    description: 'Espaço polivalente para programação cultural — música, mercados de produtores, exposições e festas.',
+    description: 'Espaço polivalente para programação cultural- música, mercados de produtores, exposições e festas.',
     goodToKnow: 'A bilheteira abre uma hora antes de cada espetáculo. Bar no local.',
     tags: ['familia', 'interior', 'grupos'],
     hours: H(null, null, '15:00-23:00', '15:00-23:00', '15:00-00:00', '10:00-00:00', '10:00-20:00'),
     imageUrl: 'https://picsum.photos/seed/caranda/800/500',
     createdAt: ago(95), updatedAt: ago(40),
-    alert: 'Entrada poente encerrada por obras — usar entrada principal.', alertUntil: iso(25),
+    alert: 'Entrada poente encerrada por obras- usar entrada principal.', alertUntil: iso(25),
   },
   {
-    id: 'ent-operador', name: 'Braga a Pé — Visitas Guiadas', type: 'operador', status: 'ativa',
+    id: 'ent-operador', name: 'Braga a Pé- Visitas Guiadas', type: 'operador', status: 'ativa',
     email: 'marcacoes@bragaape.pt', phone: '+351 253 000 600', website: 'https://exemplo.pt/bragaape',
     social: { instagram: '@bragaape' },
     address: 'Praça da República, Braga', lat: 41.5499, lng: -8.4258,

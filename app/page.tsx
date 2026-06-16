@@ -1,5 +1,5 @@
 'use client';
-// app/page.tsx — encaminhamento conforme o papel da sessão.
+// app/page.tsx- encaminhamento conforme o papel da sessão.
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/lib/auth';

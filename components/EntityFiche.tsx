@@ -1,5 +1,5 @@
 'use client';
-// components/EntityFiche.tsx — a ficha-resposta do balcão para uma entidade.
+// components/EntityFiche.tsx- a ficha-resposta do balcão para uma entidade.
 import { useData } from '@/lib/data';
 import { IconPhone, IconGlobe, IconMapPin, IconClock } from './ui/Icons';
 import {

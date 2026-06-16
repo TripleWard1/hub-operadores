@@ -44,7 +44,7 @@ export function saveData(data: AppData): void {
   try {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
   } catch {
-    // localStorage indisponível — ignora em modo demo
+    // localStorage indisponível- ignora em modo demo
   }
 }
 

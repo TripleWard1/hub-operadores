@@ -63,11 +63,7 @@ export default function LoginPage() {
             Município de Braga.
           </p>
         </div>
-        <div className="row faint text-sm">
-          <span>Green Destinations Platinum</span>
-          <span>·</span>
-          <span>Capital Europeia do Turismo Inteligente — candidata</span>
-        </div>
+       
       </aside>
 
       <div className="auth-form-side">

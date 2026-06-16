@@ -1,5 +1,5 @@
 'use client';
-// app/(entidade)/layout.tsx — área da entidade.
+// app/(entidade)/layout.tsx- área da entidade.
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/lib/auth';

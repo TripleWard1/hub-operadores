@@ -1,5 +1,5 @@
 'use client';
-// app/(entidade)/painel/page.tsx — resumo da entidade.
+// app/(entidade)/painel/page.tsx- resumo da entidade.
 import Link from 'next/link';
 import { useData } from '@/lib/data';
 import { useCurrentEntity } from '@/lib/useEntity';
@@ -51,7 +51,7 @@ export default function PainelEntidade() {
       {incomplete && (
         <Card className="mt-2" style={{ borderColor: 'rgba(226,0,26,0.25)' }}>
           <div className="row-between wrap">
-            <span className="text-sm">A tua ficha está incompleta — completa-a para o posto responder bem ao turista.</span>
+            <span className="text-sm">A tua ficha está incompleta- completa-a para o posto responder bem ao turista.</span>
             <Link href="/ficha" className="gold text-sm fw-600">Completar a ficha →</Link>
           </div>
         </Card>

@@ -1,5 +1,5 @@
 rules_version = '2';
-// REGRAS DE ARRANQUE (bootstrap) — permitem correr o /setup na primeira vez.
+// REGRAS DE ARRANQUE (bootstrap)- permitem correr o /setup na primeira vez.
 // Não há lado público: tudo exige autenticação.
 service cloud.firestore {
   match /databases/{database}/documents {

@@ -55,7 +55,7 @@ function DemoAuthProvider({ children }: { children: ReactNode }) {
     try {
       window.localStorage.setItem(SESSION_KEY, JSON.stringify(match));
     } catch {
-      // localStorage bloqueado (ex.: iframe StackBlitz) — sessão apenas em memória
+      // localStorage bloqueado (ex.: iframe StackBlitz)- sessão apenas em memória
     }
     setUser(match);
     return match;

@@ -1,5 +1,5 @@
 'use client';
-// app/(entidade)/comunicacoes/page.tsx — criar e acompanhar comunicações.
+// app/(entidade)/comunicacoes/page.tsx- criar e acompanhar comunicações.
 import { useMemo, useState } from 'react';
 import { useData } from '@/lib/data';
 import { useCurrentEntity } from '@/lib/useEntity';

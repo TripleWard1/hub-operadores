@@ -1,5 +1,5 @@
 rules_version = '2';
-// REGRAS RESTRITAS — aplicar DEPOIS da configuração inicial (/setup).
+// REGRAS RESTRITAS- aplicar DEPOIS da configuração inicial (/setup).
 // Posto (balcao) e divisão (admin) consultam tudo; a entidade gere a SUA ficha
 // e as SUAS comunicações; só a divisão altera estados e papéis.
 service cloud.firestore {

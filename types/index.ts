@@ -1,5 +1,5 @@
 // types/index.ts
-// Hub do Balcão — Visit Braga.
+// Hub do Balcão- Visit Braga.
 // Fonte de verdade interna do posto de turismo: o que há na cidade + ficha sempre
 // atual de cada operador/espaço, mantida pelas próprias entidades.
 

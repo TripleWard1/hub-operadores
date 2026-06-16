@@ -1,5 +1,5 @@
 'use client';
-// app/admin/registo/page.tsx — registo de entidades da cidade.
+// app/admin/registo/page.tsx- registo de entidades da cidade.
 import { useMemo, useState } from 'react';
 import { useData } from '@/lib/data';
 import { useToast } from '@/lib/toast';
@@ -87,7 +87,7 @@ export default function RegistoAdmin() {
         <div>
           <div className="eyebrow">Divisão de Turismo</div>
           <h1 className="page__title">Registo de entidades</h1>
-          <p className="page__subtitle">A lista oficial de espaços e operadores — sempre atual.</p>
+          <p className="page__subtitle">A lista oficial de espaços e operadores- sempre atual.</p>
         </div>
         <Button onClick={() => setCreating(true)}><IconPlus width={16} height={16} /> Nova entidade</Button>
       </div>

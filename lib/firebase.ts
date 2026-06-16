@@ -1,6 +1,6 @@
 // lib/firebase.ts
 // Inicialização condicional do Firebase.
-// MODO DEMO (sem env vars): não inicializa nada — a app usa o store em memória.
+// MODO DEMO (sem env vars): não inicializa nada- a app usa o store em memória.
 // MODO PRODUÇÃO: inicializa Auth + Firestore a partir das env vars.
 
 import { initializeApp, getApps, type FirebaseApp } from 'firebase/app';
@@ -16,7 +16,7 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-/** true quando NÃO há config Firebase — a app corre com dados em memória. */
+/** true quando NÃO há config Firebase- a app corre com dados em memória. */
 export const IS_DEMO = !firebaseConfig.apiKey;
 
 let app: FirebaseApp | null = null;

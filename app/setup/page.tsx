@@ -89,7 +89,7 @@ export default function SetupPage() {
         <Card padLg>
           <h1 style={{ fontFamily: 'var(--font-display)', margin: '0 0 8px' }}>Modo demo ativo</h1>
           <p className="muted">
-            A app está em modo demo (sem Firebase). A inicialização do Firestore não é necessária —
+            A app está em modo demo (sem Firebase). A inicialização do Firestore não é necessária-
             os dados estão em memória. Define as variáveis <code>NEXT_PUBLIC_FIREBASE_*</code> para
             ativar o backend.
           </p>

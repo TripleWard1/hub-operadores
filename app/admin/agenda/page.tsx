@@ -1,5 +1,5 @@
 'use client';
-// app/admin/agenda/page.tsx — agenda da cidade (apoio ao balcão).
+// app/admin/agenda/page.tsx- agenda da cidade (apoio ao balcão).
 import { useMemo, useState } from 'react';
 import { useData } from '@/lib/data';
 import { Button, Card, EmptyState } from '@/components/ui/primitives';
@@ -57,7 +57,7 @@ export default function AgendaAdmin() {
     <div className="page">
       <div className="page__head row-between wrap">
         <div>
-          <div className="eyebrow">Divisão de Turismo</div>
+        <div className="eyebrow">Agenda da cidade</div>
           <h1 className="page__title">Agenda</h1>
           <p className="page__subtitle">Visão de calendário do que há na cidade.</p>
         </div>

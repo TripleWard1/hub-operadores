@@ -4,7 +4,7 @@ import './globals.css';
 import { Providers } from '@/components/Providers';
 
 export const metadata: Metadata = {
-  title: 'Hub do Operador Turístico — Visit Braga',
+  title: 'Hub do Operador Turístico- Visit Braga',
   description:
     'Plataforma da Divisão de Atividades Económicas e Turismo do Município de Braga onde operadores, monumentos, museus, restaurantes e demais agentes turísticos comunicam a sua oferta e novidades.',
 };

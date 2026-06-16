@@ -1,5 +1,5 @@
 'use client';
-// app/admin/comunicacoes/page.tsx — registo do que há (entrada da divisão).
+// app/admin/comunicacoes/page.tsx- registo do que há (entrada da divisão).
 import { useMemo, useState } from 'react';
 import { useData } from '@/lib/data';
 import { useToast } from '@/lib/toast';
@@ -84,7 +84,7 @@ export default function ComunicacoesAdmin() {
       <div className="page__head">
         <div className="eyebrow">Divisão de Turismo</div>
         <h1 className="page__title">Comunicações</h1>
-        <p className="page__subtitle">O que as entidades comunicam — {novas} por tratar.</p>
+        <p className="page__subtitle">O que as entidades comunicam- {novas} por tratar.</p>
       </div>
 
       <div className="segmented mt-2">

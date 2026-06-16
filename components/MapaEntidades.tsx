@@ -1,5 +1,5 @@
 'use client';
-// components/MapaEntidades.tsx — mapa + lista das entidades, com ficha ao clicar.
+// components/MapaEntidades.tsx- mapa + lista das entidades, com ficha ao clicar.
 import { useMemo, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useData } from '@/lib/data';
@@ -29,7 +29,7 @@ export function MapaEntidades() {
       <div className="page__head">
         <div className="eyebrow">Posto de Turismo</div>
         <h1 className="page__title">Mapa</h1>
-        <p className="page__subtitle">Onde fica cada espaço e operador — para mostrar ao turista.</p>
+        <p className="page__subtitle">Onde fica cada espaço e operador- para mostrar ao turista.</p>
       </div>
 
       <div className="map-layout mt-2">
